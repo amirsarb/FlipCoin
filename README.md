@@ -1,3 +1,65 @@
+<div>
+  <h1 align="center">FlipCoin in React 🧑‍💻</h1>
+  <p><strong>This is a simple practice for state and functions</strong></p>
+<h2 style="">Goal:</h2>
+  <ul>
+  <li>
+  Practicing function/ state / onClick Action
+  </li>
+    
+   </ul>
+
+  <p>
+    Screenshot:
+  </p>
+
+  <a href="">
+    <img
+      alt="FlipCoin React"
+      src="screenshot.jpg"
+    />
+  </a>
+</div>
+
+<hr />
+
+## Requirements
+- NPM
+- React
+
+## Main Part
+
+`goflip function`
+
+
+```javascript
+goflip(){
+    
+    this.setState({flip:this.state.flip+1})
+    //Status=1 means Head, and status=0 means tail
+    const status = Math.floor(Math.random()*2)
+   
+    if (status===1){
+        this.setState({head:this.state.head+1,currentState:true})
+  
+    } else{ this.setState({tail:this.state.tail+1,currentState:false})}
+    
+   
+}
+```
+
+
+In the project directory, you can run bellow command to install all dependencies:
+
+### `npm i`
+
+
+To run this app:
+
+### `npm run dev`
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
