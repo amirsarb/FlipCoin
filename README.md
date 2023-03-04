@@ -1,6 +1,6 @@
 <div>
   <h1 align="center">FlipCoin in React 🧑‍💻</h1>
-  <p><strong>This is a simple practice for state and functions</strong></p>
+  <p><strong>This is a practice for state and functions</strong></p>
 <h2 style="">Goal:</h2>
   <ul>
   <li>
